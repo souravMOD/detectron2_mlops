@@ -1,0 +1,20 @@
+dataset:
+  base_dir: "datasets"
+  json_file: "datasets/weedcoco.json"
+  train_split: "train"
+  val_split: "val"
+  test_split: "test"
+
+model:
+  config_file: "COCO-Detection/retinanet_R_50_FPN_1x.yaml"
+  weights: "COCO-Detection/retinanet_R_50_FPN_1x.yaml"
+  num_classes: 5
+  batch_size_per_image: 128
+  ims_per_batch: 8
+
+training:
+  base_lr: 0.001
+  max_iter: 5000
+  num_workers: 4
+  steps: []
+  output_dir: "./output"

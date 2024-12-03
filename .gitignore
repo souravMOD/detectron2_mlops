@@ -3,6 +3,31 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+# Ignore dataset directories
+datasets/
+annotations/
+detectron2/
+output/
+road-signs-1/
+
+# Ignore Python build and distribution files
+*.py[cod]
+__pycache__/
+*.egg-info/
+build/
+dist/
+
+# And so on for the rest of the file...
+
 # C extensions
 *.so
 
@@ -31,7 +56,15 @@ MANIFEST
 #  before PyInstaller builds the exe, so as to inject date/other infos into it.
 *.manifest
 *.spec
+<<<<<<< HEAD
 
+=======
+datasets/
+annotations/
+detectron2/
+output/
+road-signs-1/
+>>>>>>> 0f08796 (Your commit message)
 # Installer logs
 pip-log.txt
 pip-delete-this-directory.txt
@@ -154,9 +187,26 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+<<<<<<< HEAD
+=======
+# Ignore image files
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.svg
+
+
+>>>>>>> 0f08796 (Your commit message)
 # PyCharm
 #  JetBrains specific template is maintained in a separate JetBrains.gitignore that can
 #  be found at https://github.com/github/gitignore/blob/main/Global/JetBrains.gitignore
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
+<<<<<<< HEAD
 #.idea/
+=======
+#.idea/
+>>>>>>> 0f08796 (Your commit message)

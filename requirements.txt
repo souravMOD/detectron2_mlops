@@ -1,0 +1,7 @@
+numpy
+scikit-learn
+pyyaml
+detectron2==0.6+cu118 -f https://dl.fbaipublicfiles.com/detectron2/wheels/cu118/torch2.0/index.html
+torch>=2.0
+torchvision>=0.15
+opencv-python
